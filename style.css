@@ -1,0 +1,614 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -10px;
+}
+
+.nav-item{
+  float: left;
+  position: relative;
+  left: -34px;
+
+}
+
+.nav-link{
+  font-size: 15px;
+  float: right;
+}
+
+.navbar-nav{
+  gap: 15px;
+} 
+
+.logo{
+  width: 139%;
+  height: 70px;
+}
+/* .logo img{
+    width: 100px;
+    height: 100px;
+} */
+
+button[type="submit"]{
+  position: relative;
+  left: -25px;
+}
+.header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color:transparent;
+}
+.otherpages{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* .nav-item{
+    margin-left: 20px;
+}
+.nav-item button{
+    margin-right: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+} */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  .mySlides img{
+    position: relative;
+    left: -100px;
+  }
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+.container img{
+    width: 100%;
+    height:100%;
+}
+.container{
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    top: 36%;
+    left: 8%;
+}
+.para{
+    font: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+}
+.content p span{
+    font-family: DomaineDisplay, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 56px;
+    color: rgb(255, 255, 255);
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+.searchbar input{
+    color: grey;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+    border: none;
+    padding: 10px;
+}
+.search-icon{
+    color: white;
+    padding-top:13px;
+    padding-left: 17px;
+    background-color: #1DBF73;
+    width: 50px;
+    height: 50px;
+}
+
+.search-icon:hover{
+  background-color: green;
+  cursor: pointer;
+}
+.content-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.content-button p{
+    color: white;
+    font-size: 14px;
+}
+.content-button button{
+    background-color: transparent; 
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 900;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+}
+.content-button button:hover{
+    background-color: white;
+    color: rgb(59, 56, 56);
+}
+.icon-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: #f5f5f5;
+    position: relative;
+    top: -22px;
+}
+.icon-conatiner img{
+    margin: 20px;
+}
+.icon-conatiner p{
+    color: #C2C2C5;
+    position: relative;
+    top: 3px;
+    font-size: 18px;
+}
+
+
+.popular-services {
+  position: relative;
+}
+
+#services-slider-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#services-slider-wrapper {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.slider-right-arrow {
+  right: 10px;
+  box-shadow: 1px 1px 5px 0px rgb(177, 177, 177);
+}
+
+.slider-left-arrow {
+  left: 10px;
+  box-shadow: -1px 1px 5px 0px rgb(177, 177, 177);
+}
+
+.slider-left-arrow, .slider-right-arrow {
+  position: absolute;
+  font-size: 3rem;
+  line-height: 35px;
+  width: 45px;
+  height: 45px;
+  top: 50%;
+  transform: translate(0, -50%);
+  background-color: white;
+  border-radius: 50%;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.service{
+    margin-top: -12px;
+    box-sizing: border-box;
+
+  }
+.service p{
+    font-size: 36px;
+    font-weight: 400;
+    color: #404145;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .row {
+    display: flex;
+    padding-left: 7px;
+    height: 350px;
+  }
+.column {
+    flex: 0%;
+    padding: 5px;
+    position: relative;
+    width: 0% !important;
+  }
+  .column img{
+    width: 230px;
+  }
+  .column-content{
+    position: absolute;
+    top:10% ;
+    left: 2%;
+  }
+  .column-content p{
+    font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0;
+  }
+  .column-content h1{
+    font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+  }
+  .about{
+    display: flex;
+    margin-top: 80px;
+    background-color: #f1fdf7;
+  }
+  .about-content{
+    margin: 20px 100px 20px 20px;
+  }
+  .about-image{
+    width: 80%;
+  }
+  .about-image img{
+    height: 400px;
+    margin-top: 50px;
+  }
+
+  /* .qlts-video-thumb {
+    position: relative;
+  }
+  
+  .qlts-video-thumb::after {
+    content: "";
+    display: inline-block;
+    background: url("https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/desktop-play-button.c1196d6.png")
+      no-repeat;
+    background-size: 80px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } */
+  
+  .text{
+    margin-left: 30px;
+  }
+  .text p{
+    font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+ color: rgb(98, 100, 106);
+ margin-bottom: 15px;
+  }
+  .text h1{
+    font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+     color:  rgb(64, 65, 69);
+     margin-bottom: 20px;
+  }
+  .para-icon{
+    font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.2px;
+     color:  rgb(64, 65, 69);
+     margin-bottom: 15px;
+  }
+  .need-cont{
+    margin-left:60px ;
+    margin-right:60px ;
+  }
+  .need-cont h1{
+   font-family: Macan, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+   font-weight: 700;
+   Line-height: 38.4px;
+    color: rgb(64, 65, 69);
+    margin-bottom: 66px;
+    position: relative;
+    top: 24px;
+  }
+  .need-cont-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .need-cont-card img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+  }
+  .each-card{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+  }
+
+
+  .blue{
+    background-color: #0D084D;
+    height: 600px;
+    color: white;
+}
+
+.blue-div img{
+    height:80%;
+    width: 15%;
+}
+.blue-div2{
+  width: 457px;
+  height: 347px;
+  margin: 15% 5% 0% 2%;
+}
+.blue-div1{
+    width: 450px;
+    height: 300px;
+    margin: 8% 10% 3% 3%;
+}
+.blue-div-icon{
+    margin:  0% 5% 3% 0%;
+    height: 3%;
+}
+.blue-h1{
+    width: 80%;
+}
+.blue h1{
+    font-size: 32px;
+    margin-bottom: 5%;
+    font-weight: 700;
+}
+.blue-div-icon h5{
+    font-size: 16px;
+}
+.blue-div-icon+p{
+    margin-top: 0;
+    font-size: 13px;
+    font-size: 18px;
+    position: relative;
+    left: 17px;
+}
+.blue button{
+    width: 25%;
+    padding: 2% 3% 3% 4%;
+    font-size: 12px;
+    font-weight: bold;
+    color: #616265;
+}
+
+.para-business p{
+  font-size: 22px;
+}
+
+.h5{
+  font-size: 20px;
+}
+
+
+.d-block{
+  position: relative;
+  top: 75px;
+  width: 40% !important;
+  height: 70% !important;
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  top: 91px;
+}
+
+.founder-detail{
+    position: absolute;
+    top: 25%;
+    left: 58%;
+    z-index: -1;
+}
+
+.founder-detail p{
+  font-size: 20px;
+}
+
+.working-para{
+  position: relative;
+  top: 164px;
+  width: 91%;
+  max-width: 435px;
+  left: 553px;
+}
+
+.working-para p{
+  font-size: 30px;
+  color: green;
+}
+
+
+.logomaker{
+  background-color: #446ee7;
+  position: relative;
+  top: 100px;
+  height: 400px;
+}
+
+.logomaker-detail{
+  position: relative;
+  top: -250px;
+  left: 60px;
+}
+
+.heading-logomaker{
+  position: relative;
+  top: -282px;
+  left: 162px;
+}
+
+.heading-logomaker p{
+  font-size: 28px;
+  color: white;
+}
+
+.heading1-logomaker{
+  position: relative;
+  top: -282px;
+  left: 60px;
+}
+
+.heading1-logomaker h2{
+  color: white;
+}
+
+.para-logomaker{
+  position: relative;
+  top: -240px;
+  left: 60px;
+}
+
+.para-logomaker p{
+  color: white;
+  font-size: 18px;
+}
+
+.btn-logomaker{
+  position: relative;
+  top: -200px;
+  left: 60px;
+}
+
+.btn-logomaker button{
+  height: 40px;
+  width: 180px;
+  border-radius: 7px;
+  border: none;
+  color: #446ee7;
+  font-weight: 700;
+}
+
+.btn-logomaker button:hover{
+  background-color: rgb(255, 255, 255);
+}
+
+.signup{
+  position: relative;
+  top: 218px;
+}
+
+.signupdetail{
+  position: relative;
+  top: -300px;
+  left: 60px;
+}
+
+.signupdetail h2{
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+}
+
+.signup-btn{
+  position: relative;
+  top: -250px;
+  left: 50px;
+}
+
+.signup-btn button{
+  height: 40px;
+  width: 150px;
+  background-color: green;
+  color: white;
+  border-radius: 7px;
+}
+
+.signup-btn button:hover{
+  background-color: #1DBF73;
+}
+
+.footer{
+  position: relative;
+  top: 100px;
+}
+.footer a {
+  color: rgb(155, 155, 155) !important;
+}
+
+.footer .footer-links li {
+  margin: 14px 0;
+}
+
+.footer .footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social li:hover {
+  background-color: rgb(230, 230, 230);
+  border-radius: 10px;
+}
+
+.footer ul li a{
+  text-decoration: none;
+}
